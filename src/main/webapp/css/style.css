@@ -1,0 +1,244 @@
+/* Eventora - Mini Project Stylesheet */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #003366;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .brand {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 25px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1 { font-size: 20px; color: #003366; margin-bottom: 10px; }
+h2 { font-size: 17px; color: #003366; margin-bottom: 10px; }
+
+/* Forms */
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 7px 8px;
+    border: 1px solid #aaa;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #003366;
+    outline: none;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-blue  { background-color: #003366; color: white; }
+.btn-green { background-color: #2e7d32; color: white; }
+.btn-red   { background-color: #c62828; color: white; }
+.btn-gray  { background-color: #757575; color: white; }
+.btn:hover { opacity: 0.85; }
+
+/* Alerts */
+.alert {
+    padding: 9px 12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    border-left: 4px solid;
+}
+
+.alert-error   { background-color: #ffebee; color: #b71c1c; border-color: #c62828; }
+.alert-success { background-color: #e8f5e9; color: #1b5e20; border-color: #2e7d32; }
+.alert-info    { background-color: #e3f2fd; color: #0d47a1; border-color: #1565c0; }
+
+/* Auth box */
+.auth-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+.auth-box h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 17px;
+    color: #003366;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.auth-box.wide { max-width: 500px; }
+
+.auth-footer {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.auth-footer a { color: #003366; }
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover { background-color: #f5f5f5; }
+
+/* Event card */
+.event-card {
+    border: 1px solid #ccc;
+    padding: 14px;
+    margin-bottom: 14px;
+    background: #fafafa;
+}
+
+.event-card h3 {
+    margin: 0 0 6px 0;
+    font-size: 15px;
+    color: #003366;
+}
+
+.event-card p {
+    margin: 3px 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.event-card .meta {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.badge-green { background-color: #c8e6c9; color: #1b5e20; }
+.badge-red   { background-color: #ffcdd2; color: #b71c1c; }
+.badge-blue  { background-color: #bbdefb; color: #0d47a1; }
+
+/* Hero */
+.hero {
+    background-color: #003366;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.hero h1 { color: white; font-size: 24px; margin-bottom: 8px; }
+.hero p   { font-size: 14px; margin-bottom: 18px; }
+
+/* Stats */
+.stats-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    flex: 1;
+    min-width: 130px;
+    background: #e3f2fd;
+    border: 1px solid #90caf9;
+    padding: 14px;
+    text-align: center;
+}
+
+.stat-box .num { font-size: 26px; font-weight: bold; color: #0d47a1; }
+.stat-box .lbl { font-size: 12px; color: #555; }
+
+/* Capacity bar */
+.cap-bar {
+    background: #e0e0e0;
+    height: 7px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.cap-fill {
+    height: 100%;
+    background-color: #2e7d32;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 14px;
+    font-size: 12px;
+    color: #888;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
